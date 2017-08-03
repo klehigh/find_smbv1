@@ -1,0 +1,8 @@
+[package]
+
+description = log smb version activity, primarily interested in SMBv1
+
+tags = smb, logging
+
+depends = 
+  bro >=2.5.0
