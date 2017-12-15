@@ -17,7 +17,7 @@ event smb1_message(c: connection, hdr: SMB1::Header, is_orig: bool) &priority=-5
         if ( !is_orig )
                 {
 		# suppress repeated notices involving any given pair of hosts
-                NOTICE([$note=LogSMBVersion::SMBv1_Seen,
+                NOTICE([$note=FindSMBv1::Seen,
                 $msg=fmt("SMBv1 Connection %s to %s", c$id$orig_h, c$id$resp_h),
                 $conn=c,
                 $identifier=cat(c$id$resp_h,c$id$orig_h)]);
