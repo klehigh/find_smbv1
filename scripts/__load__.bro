@@ -1,3 +1,3 @@
 @load policy/protocols/smb
 
-@load ./log.smb.bro
+@load ./find_smbv1.bro
