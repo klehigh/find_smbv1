@@ -1,12 +1,13 @@
-# log SMB Version activity.  Currently we only care about 
-# SMBv1, but that could change in the future.
+# Find SMBv1 activity.  
+# Currently we only raise a notice, but will log the command in the future.
+#
 # Author: Keith Lehigh <klehigh@iu.edu>
 
-module LogSMBVersion;
+module FindSMBv1;
 
 export {
         redef enum Notice::Type += {
-                SMBv1_Seen,
+                Seen,
         };
 }
 

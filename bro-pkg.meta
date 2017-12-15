@@ -1,8 +1,10 @@
 [package]
 
-description = log smb version activity, primarily interested in SMBv1
+description = find SMBv1 activity
 
 tags = smb, logging
 
 depends = 
   bro >=2.5.0
+
+script_dir = scripts
