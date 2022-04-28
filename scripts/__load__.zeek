@@ -1,3 +1,3 @@
 @load base/protocols/smb
 
-@load ./find_smbv1.bro
+@load ./find_smbv1.zeek
