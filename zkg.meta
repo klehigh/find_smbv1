@@ -8,3 +8,5 @@ depends =
   zeek >=2.5.0
 
 script_dir = scripts
+
+credits = Mark Overholser converted to support newer Zeek
